@@ -357,7 +357,22 @@
         </div>
       </div>
 
-<!-- Leaderboard (main) -->
+<!-- LeaderBoard -->
+      <div class="col-lg-7">
+        <!-- Button Change (English, Chinese, French) -->
+        <td class="align-middle text-center">
+        <button id="toggleButton" class="btn  button-row" onclick="changeButtonText()">
+          <b style='font-size: larger;'>Main Leaderboard &nbsp;</b>  (Click to Switch)
+        </button>
+        </td>
+
+
+        <div class="model-labels-container">
+            <span class="leaderboard-label" style="background-color: rgba(249, 242, 248, 1);">Open-Source</span>
+            <span class="leaderboard-label" style="background-color: rgba(117, 209, 215, 0.1);">Proprietary</span>
+          </div>
+
+        <!-- Leaderboard (main) -->
         <div class="card card-outline-secondary" id="main_table">
           <div class="card-header">Consolidated Scores on Test Set</div>
           <div class="table-wrapper">
@@ -453,21 +468,6 @@
             </table>
           </div>
         </div>
-
-<!-- LeaderBoard -->
-      <div class="col-lg-7">
-        <!-- Button Change (English, Chinese, French) -->
-        <td class="align-middle text-center">
-        <button id="toggleButton" class="btn  button-row" onclick="changeButtonText()">
-          <b style='font-size: larger;'>Main Leaderboard &nbsp;</b>  (Click to Switch)
-        </button>
-        </td>
-
-
-        <div class="model-labels-container">
-            <span class="leaderboard-label" style="background-color: rgba(249, 242, 248, 1);">Open-Source</span>
-            <span class="leaderboard-label" style="background-color: rgba(117, 209, 215, 0.1);">Proprietary</span>
-          </div>
 
         <!-- Leaderboard (English) -->
         <div class="card card-outline-secondary hidden" id="english_table">
